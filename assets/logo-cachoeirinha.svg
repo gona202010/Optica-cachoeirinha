@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#111111"/>
+      <stop offset="60%" stop-color="#1F1212"/>
+      <stop offset="100%" stop-color="#991B1B"/>
+    </linearGradient>
+    <linearGradient id="rimGrad" x1="12" y1="40" x2="108" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FACC15"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#EF4444"/>
+    </linearGradient>
+    <linearGradient id="glintGrad" x1="20" y1="45" x2="50" y2="75" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FEF08A" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#EF4444" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded Squircle Badge -->
+  <rect x="6" y="6" width="108" height="108" rx="28" fill="url(#bgGrad)" stroke="url(#rimGrad)" stroke-width="3.5"/>
+  <!-- Top Accent Arc -->
+  <path d="M28 24C46 16 74 16 92 24" stroke="#FACC15" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <!-- Left Lens -->
+  <rect x="16" y="42" width="38" height="32" rx="14" fill="url(#glintGrad)" stroke="url(#rimGrad)" stroke-width="5"/>
+  <!-- Right Lens -->
+  <rect x="66" y="42" width="38" height="32" rx="14" fill="url(#glintGrad)" stroke="url(#rimGrad)" stroke-width="5"/>
+  <!-- Bridge -->
+  <path d="M54 54C57 49 63 49 66 54" stroke="#FACC15" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- Temple tips -->
+  <path d="M11 50L16 52" stroke="#EF4444" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M109 50L104 52" stroke="#EF4444" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- Lens Shine -->
+  <path d="M25 50L31 64" stroke="#FEF08A" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+  <path d="M75 50L81 64" stroke="#FEF08A" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+  <!-- Bottom Dot Accent -->
+  <circle cx="60" cy="92" r="4" fill="#EF4444"/>
+  <path d="M42 92H51M69 92H78" stroke="#FACC15" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+</svg>
